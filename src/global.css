@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 14px 'Roboto', sans-serif;
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+input,
+buttons,
+textarea {
+  font: 400 18px 'Roboto', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  margin-top: 8px;
+}
+
+/* TYPES COLORS */
+.bug {
+  background-color: #a8b820 !important;
+}
+
+.dark {
+  background-color: #705848 !important;
+}
+
+.dragon {
+  background-color: #7038f8 !important;
+}
+
+.electric {
+  background-color: #f8d030 !important;
+}
+
+.fighting {
+  background-color: #c03028 !important;
+}
+
+.flying {
+  background-color: #a890f0 !important;
+}
+
+.ghost {
+  background-color: #705898 !important;
+}
+
+.grass {
+  background-color: #78c850 !important;
+}
+
+.ground {
+  background-color: #e0c068 !important;
+}
+
+.normal {
+  background-color: #a8a878 !important;
+}
+
+.poison {
+  background-color: #a040a0 !important;
+}
+
+.psychic {
+  background-color: #f85888 !important;
+}
+
+.steel {
+  background-color: #b8b8d0 !important;
+}
+
+.water {
+  background-color: #6890f0 !important;
+}
+
+.unknow {
+  background-color: #68a090 !important;
+}
+
+.fire {
+  background-color: #f08030 !important;
+}
+
+.rock {
+  background-color: #B8A038 !important;
+}
+
+.fairy {
+  background-color: #EE99AC !important;
+}
+
+.ice {
+  background-color: #98D8D8 !important;
+}

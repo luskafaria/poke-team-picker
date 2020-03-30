@@ -1,0 +1,106 @@
+.modal {
+  background-color: white;
+  position: fixed;
+  left: 50%;
+  margin-left: -450px;
+  top: 50%;
+  margin-top: -200px;
+  width: 900px;
+  height: 400px;
+  color: black;
+  z-index: 999;
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.show {
+  display: grid !important;
+}
+
+.general-details,
+.stats-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #333;
+  font-size: 16px;
+  transition: all 0.15s ease-in;
+}
+
+.general-details:hover,
+.stats-details:hover {
+  background-color: #ddd;
+}
+
+.general-details figure {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.general-details figure img {
+  width: 120px;
+}
+
+.general-details div {
+  margin-top: 10px;
+}
+
+.general-details .types {
+  margin-bottom: 8px;
+}
+
+.general-details .types span {
+  padding: 4px 8px;
+  color: white;
+  border-radius: 4px;
+}
+
+.general-details span + span,
+.stats-details span + span {
+  margin-left: 10px;
+}
+
+.stats-details .abilities {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: block;
+}
+
+.stats-details .abilities p,
+.stats-details .stats p {
+  margin-bottom: 10px;
+}
+
+.stats-details .abilities span {
+  padding: 4px 8px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.stats-details .stats div span:nth-last-child(odd) {
+  font-weight: 500;
+}
+
+.stats-details .stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-details .stats div div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats-details .stats div div:not(:last-child) {
+  margin-bottom: 4px;
+}

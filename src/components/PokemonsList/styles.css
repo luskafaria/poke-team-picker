@@ -1,0 +1,27 @@
+.main-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-container header {
+  width: 100%;
+  padding: 20px;
+}
+
+.main-container header h1 {
+  margin-bottom: 10px;
+}
+
+.main-container header h3 {
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+
+  text-align: center;
+  grid-gap: 20px;
+}
